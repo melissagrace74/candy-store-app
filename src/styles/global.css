@@ -1,0 +1,57 @@
+/* Body and font */
+body {
+  font-family: "Poppins", sans-serif; /* modern, clean font */
+  background: linear-gradient(to bottom right, #ffe6f0, #e0f7fa); /* soft pink & teal gradient */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ff6f91; /* sophisticated pink */
+  margin: 0.5rem 0;
+}
+
+/* Inputs */
+input, select {
+  padding: 0.5rem;
+  border: 2px solid #ffd6e0; /* pastel pink border */
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4dd0e1; /* pastel teal focus */
+  box-shadow: 0 0 8px rgba(77,208,225,0.3);
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Grid containers */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* Shop and Admin container padding */
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
